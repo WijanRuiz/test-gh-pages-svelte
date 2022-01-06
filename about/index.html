@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="" />
+		<link rel="icon" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+
+		
+
+		<link rel="stylesheet" href="/_app/assets/start-d5b4de3e.css">
+		<link rel="stylesheet" href="/_app/assets/pages/app/__layout.reset.svelte-af98a4b0.css">
+		<link rel="modulepreload" href="/_app/start-a659f791.js">
+		<link rel="modulepreload" href="/_app/chunks/vendor-47e42e2c.js">
+		<link rel="modulepreload" href="/_app/chunks/singletons-a42a5e91.js">
+		<link rel="modulepreload" href="/_app/pages/__layout.svelte-ad882f1f.js">
+		<link rel="modulepreload" href="/_app/chunks/header-60f79bc9.js">
+		<link rel="modulepreload" href="/_app/chunks/icon-ea667a57.js">
+		<link rel="modulepreload" href="/_app/chunks/session-state-52d6fb5b.js">
+		<link rel="modulepreload" href="/_app/chunks/supabase-2551c048.js">
+		<link rel="modulepreload" href="/_app/pages/about.svelte-9e084538.js">
+
+		<script type="module">
+			import { start } from "/_app/start-a659f791.js";
+			start({
+				target: document.querySelector("#svelte"),
+				paths: {"base":"","assets":""},
+				session: {},
+				route: true,
+				spa: false,
+				trailing_slash: "never",
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/_app/pages/__layout.svelte-ad882f1f.js"),
+						import("/_app/pages/about.svelte-9e084538.js")
+					],
+					url: new URL("http://prerender/about"),
+					params: {}
+				}
+			});
+		</script>
+	</head>
+	<body>
+		<div id="svelte">
+
+
+<header class="h-14 bg-indigo-500 flex"><div class="cursor-pointer mt-2 ml-3 h-10 w-10 hover:bg-indigo-600 text-white rounded-full p-2"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 flex content-center" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg></div>
+    <div class="w-full h-full flex flex-row flex-wrap items-center justify-end mr-3"><a class="mx-1 p-3 rounded-full text-white hover:bg-indigo-600" href="/auth/login"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 flex content-center" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1"></path></svg>
+        
+    </a><a class="mx-1 p-3 rounded-full text-white hover:bg-indigo-600" href="/auth/signup"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 flex content-center" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z"></path></svg>
+        
+    </a></div></header>
+<nav class="transition-all duration-500 top-14 left-0 fixed border-slate-300 border-2 w-[3vw] h-full"><a class="p-3 width-max flex hover:bg-slate-300 content-center justify-center" href="/"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 flex content-center" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
+            
+            <span class="transition ease-in-out delay-500 duration-500 inline-block ml-4 hidden">Home</span>
+            
+            <div class="text-sm absolute block text-white rounded-md bg-gray-700 p-2 shadow-xl left-16 ml-1 hidden">Home
+            </div>
+        </a><a class="p-3 width-max flex hover:bg-slate-300 content-center justify-center" href="/about"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 flex content-center" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            
+            <span class="transition ease-in-out delay-500 duration-500 inline-block ml-4 hidden">About</span>
+            
+            <div class="text-sm absolute block text-white rounded-md bg-gray-700 p-2 shadow-xl left-16 ml-1 hidden">About
+            </div>
+        </a></nav>
+<main class="transition-all duration-500 p-3 ml-24 mt-6"><div><h1>About</h1></div>
+</main>
+
+</div>
+	</body>
+</html>

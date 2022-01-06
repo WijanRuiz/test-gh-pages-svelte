@@ -1,0 +1,1 @@
+import{C as a}from"./vendor-47e42e2c.js";import{s}from"./supabase-2551c048.js";class o{constructor(e,t){this.user=e,this.session=t}}const p=a(new o(s.auth.user(),s.auth.session()));export{o as A,p as S};

@@ -1,0 +1,1 @@
+import{T as e}from"./vendor-47e42e2c.js";const s={url:"https://ztywluqchjsjrrsiytax.supabase.co",key:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlhdCI6MTY0MTIyOTg5MSwiZXhwIjoxOTU2ODA1ODkxfQ.0zKcasMRHeOhkkRr89wYO6FOXsSaiY-u7lPvGucFXGk"},c=e(s.url,s.key);export{c as s};

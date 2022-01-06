@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="" />
+		<link rel="icon" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+
+		
+
+		<link rel="stylesheet" href="/_app/assets/start-d5b4de3e.css">
+		<link rel="modulepreload" href="/_app/start-a659f791.js">
+		<link rel="modulepreload" href="/_app/chunks/vendor-47e42e2c.js">
+		<link rel="modulepreload" href="/_app/chunks/singletons-a42a5e91.js">
+		<link rel="modulepreload" href="/_app/pages/auth/__layout.reset.svelte-ae3a6902.js">
+		<link rel="modulepreload" href="/_app/pages/auth/login.svelte-1e497f57.js">
+		<link rel="modulepreload" href="/_app/chunks/button-011beeb2.js">
+		<link rel="modulepreload" href="/_app/chunks/icon-ea667a57.js">
+		<link rel="modulepreload" href="/_app/chunks/authSupabase-5f7dbe5b.js">
+		<link rel="modulepreload" href="/_app/chunks/supabase-2551c048.js">
+		<link rel="modulepreload" href="/_app/chunks/session-state-52d6fb5b.js">
+		<link rel="modulepreload" href="/_app/chunks/navigation-c71191e7.js">
+		<link rel="modulepreload" href="/_app/chunks/stores-50a79dea.js">
+
+		<script type="module">
+			import { start } from "/_app/start-a659f791.js";
+			start({
+				target: document.querySelector("#svelte"),
+				paths: {"base":"","assets":""},
+				session: {},
+				route: true,
+				spa: false,
+				trailing_slash: "never",
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/_app/pages/auth/__layout.reset.svelte-ae3a6902.js"),
+						import("/_app/pages/auth/login.svelte-1e497f57.js")
+					],
+					url: new URL("http://prerender/auth/login"),
+					params: {}
+				}
+			});
+		</script>
+	</head>
+	<body>
+		<div id="svelte">
+
+
+<main class="h-screen grid grid-cols-5"><div class="h-screen col-span-3 bg-cover bg-center bg-no-repeat bg-[url('https://ztywluqchjsjrrsiytax.supabase.in/storage/v1/object/public/app/login-bg.jpg')]"></div>
+    <div class="p-5 col-span-2"><div class="mt-60"><div class="w-10 h-10 p-2 bg-indigo-500 rounded-full m-auto"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 flex content-center text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg></div>
+            <h1 class="text-xl text-center w-full">Login</h1>
+            <form class="mt-2"><div><label class="block" for="email">Email</label>
+                    <input id="email" class="border w-full p-2 rounded" type="text" placeholder="Email" autofocus autocomplete="email"></div>
+                <div class="mt-2"><label class="block" for="password">Password</label>
+                    <input id="password" class="border w-full p-2 rounded" type="password" placeholder="Password" autocomplete="current-password"></div>
+                <div class="mt-4 inline-block w-full"><div class="inline-block m-auto"><button type="submit" class="p-2 border rounded flex border-slate-300 bg-indigo-500 hover:bg-indigo-600"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 flex content-center text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1"></path></svg>
+    <span class="ml-2 text-white font-semibold">Login</span></button></div>
+                    <div class="inline-block m-auto"><button type="button" class="p-2 border rounded flex border-slate-300 bg-indigo-500 hover:bg-indigo-600"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 flex content-center text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z"></path></svg>
+    <span class="ml-2 text-white font-semibold">SignUp</span></button></div></div></form></div></div></main>
+
+</div>
+	</body>
+</html>
